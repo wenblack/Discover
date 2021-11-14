@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Escrevendo um código fonte</title>
+</head>
+
+<body>
+    <!-- Código mais complexo/Blocos>-->
+    <pre>
+        <!-- Código mais simples e Genérico>-->
+        <code>
+import React from 'react';
+import {
+    TouchableOpacity,
+    Text,            
+    Image
+        } from 'react-native';
+import { styles } from './styles';
+
+type Props = {
+    title: string;
+    color: string
+}
+
+export function Button() {
+    return (
+        <TouchableOpacity style={styles.container}>
+            <Image ></Image>
+            <Text style={{ styles.container }}>Texto do Botão</Text>
+        </TouchableOpacity>
+    );
+}
+        </code>
+    </pre>
+</body>
+
+</html>

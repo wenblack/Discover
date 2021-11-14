@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Complexa</title>
+</head>
+
+<body>
+    <table>
+        <!-- Titulo-->
+        <caption>Produzidos x Vendidos por loja</caption>
+        <!-- Estilizando e organizando tabela
+        Obs: O número de colunas é o total
+        -->
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: red;">
+            <col span="2" style="background-color: blue;">
+        </colgroup>
+        <!-- Cabeçalho-->
+        <thead>
+            <tr>
+                <!-- DICA: Aumentando para 2 linhas
+                para criar um espaçamento para os 
+                produtos!
+
+                O atributo scope serve para acessibilidade
+                e os leitores de tela
+                -->
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">Afonso pena</th>
+                <th colspan="2" scope="colgroup">Antonia Pereira</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+        <!--Corpo -->
+        <tbody>
+            <!-- Primeiro Produto-->
+            <tr>
+                <th scope="row">Vassoura</th>
+                <th>50</th>
+                <th>30</th>
+                <th>20</th>
+                <th>20</th>
+            </tr>
+            <!-- Segundo Produto-->
+            <tr>
+                <th scope="row">Baldes</th>
+                <th>10</th>
+                <th>10</th>
+                <th>30</th>
+                <th>25</th>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
