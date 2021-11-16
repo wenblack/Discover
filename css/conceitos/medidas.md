@@ -1,13 +1,13 @@
 # Tipos de Medidas
--São fixas e não alteram seu valor 
 
 * Tipos Numéricos:
+- São fixas e não alteram seu valor 
 <inteiro> positivos e negativos inteiros. EX: -4 ou 15
 <numeros> decimais. EX: 3.4 , 5 ou -4.4
 <dimensão> numeral com  unidade. EX: 90px, 2s , 90deg
 <porcentagem> Necessita valor de referencia:Ex:width:50 %
 
-*Unidades Comuns:
+* Unidades Comuns:
 <tamanho> usado para distancia : px, em , vw
 <angulo> usado para ângulo : deg, rad , turn
 <tempo> usado para tempo : s, ms 
@@ -22,7 +22,7 @@ px 1px  =  1/96th de 1in
 * DICA: Sempre utilizar px, não é recomendado usar cm
 
 # Distancias relativas
--São relativas a algum valor, pode ser o elemento pai, root do navegador ou tamanho da tela.
+- São relativas a algum valor, pode ser o elemento pai, root do navegador ou tamanho da tela.
 
 Unidade   Relativo a
 em        tamanho da fonte pai
