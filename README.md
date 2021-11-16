@@ -38,7 +38,7 @@
 
 ## 👨🏻‍💻 Sobre o Repositorio
 
-- <p style="color: red;">O objetivo desse repo é exercitar, compartilhar e comprovar todo o conhecimento adquirido durante curso em questão </p>
+- <p style="color: red;">O objetivo desse repo é exercitar, compartilhar e comprovar todo o conhecimento adquirido durante o curso em questão </p>
 
 ## 🚀 Tecnologias
 
