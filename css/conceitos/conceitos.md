@@ -40,3 +40,9 @@ Docs: https://developer.mozilla.org/pt-BR/docs/Web/CSS/Shorthand_properties
 * o - Opera
 
 Docs: http://ireade.github.io/which-vendor-prefix/
+
+# Força de tipos
+
+* 1. Inline
+* 2. Interno
+* 3. Externo
