@@ -40,6 +40,12 @@
 
 - <p style="color: red;">O objetivo desse repo é exercitar, compartilhar e comprovar todo o conhecimento adquirido durante o curso em questão </p>
 
+Notion (Conceitos teóricos):
+
+<https://wen-dev.notion.site/Discover-c0074a70bca244c0b2d857d351f8984d>
+
+<br>
+
 ## 🚀 Tecnologias
 
 Tecnologias que dominarei até o final do curso:
